@@ -8,6 +8,7 @@
         * {
             margin: 0px;
             padding: 0px;
+            color: white;
         }
 
         html, body  {
@@ -25,9 +26,11 @@
     </style>
 </head>
 <body>
-    <h1> Testerei meus conhecimentos em JS</h1>
+    <h1> Testando meus conhecimentos em JS</h1>
     <script>
-
+        var valor = 1500.5
+        var duas = valor.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+        document.write(duas)
     </script>
 </body>
 </html>
