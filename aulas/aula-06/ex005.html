@@ -12,15 +12,17 @@
         }
     </style>
 </head>
-<body>
-    <h1>Iniciando estudos DOM</h1>
+<body id="c">
+    <h1 id="title1">Iniciando estudos DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-    <p>lo</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima consectetur sequi assumenda fuga dolor, cum voluptatum reiciendis fugiat exercitationem quam laboriosam libero architecto debitis quia sapiente aspernatur eius rem a.</p>
     <div id="msg">Clique em mim</div>
     <script>
-        var d = window.document.querySelector('div#msg')
-        d.style.color = 'blue'
+        var t1 = document.getElementById('title1')
+        var corpo = document.getElementById('c')
+        corpo.style.background = 'pink'
+        t1.style.color = 'red'
     </script>
 </body>
 </html>
