@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antes e depois</title>
+    <style>
+        body {font: 1.1em Arial;}
+        button {font-size: 1.2em; padding: 30px;}
+    </style>
+</head>
+<body>
+    <h1>Antes e depois</h1>
+    <button onclick="clicou()">Antecessor e Sucessor</button>
+    <script>
+        function clicou() {
+            let v1 = Number(window.prompt('Digíte um número quarquer.'))
+            window.alert(`Antes de ${v1}, temos o número ${v1-1}. 
+Depois de ${v1}, temos o número ${v1+1}`)
+        }
+    </script>
+</body>
+</html>

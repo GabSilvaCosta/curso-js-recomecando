@@ -3,47 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM</title>
+    <title>Eventos DOM</title>
     <style>
-        body {
-            text-align: center;
-            padding: 10px;
-        }
-
-        #ivalor1, #ivalor2 {
-            margin: 10px;
-            height: 20px;
-            width: 100px;
-        }
-
-        #somar {
-            height: 25px;
-            margin-left: -11px;
-        }
-
-        div {
-            border: 1px solid black;
-            width: 120px;
-            height: 25px;
-            line-height: 23px;
-            margin: auto;
-        }
+        body { font: 1.1em Arial; }
+        button { font-size: 1.1em; padding: 30px; }
     </style>
 </head>
 <body>
-    <h1>Somando valores</h1>
-    <form action="">
-        <input type="number" name="valor1" id="ivalor1"> +
-        <input type="number" name="valor2" id="ivalor2">
-        <input type="button" value="Somar" id="somar">
-        <div>Resultado</div>
-    </form>
+    <h1>interagindo com um botão</h1>
+    <button onclick="clicou()">Clica em mim!</button>
     <script>
-        var v1 = Number(document.getElementById("ivalor1"))
-        var v2 = Number(.getElementById("ivalor2"))
-        var soma = v1 + v2
-        var resultado = document.getElementsByTagName("div")
-        
+        function clicou() {
+            window.alert('Você clicou no botão!')
+        }
     </script>
 </body>
 </html>
