@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperaturas</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightgreen;
+            font: 1.1em Arial;
+        }
+
+        button {
+            padding: 30px;
+            font-size: 1.1em;
+        }
+
+        p {margin-top: 50px;}
+    </style>
+</head>
+<body>
+    <h1>Conversor de temperaturas</h1>
+    <button onclick="clicou()">Converter</button>
+    <p>Clique no botão acima para iniciar!</p>
+    <script>
+        function clicou() {
+            let resultado = window.document.querySelector('p')
+
+            let graus = Number.parseFloat(window.prompt('Digite um valor em °C (Celsius)'))
+
+            let kelvin = graus + 273.15
+
+            let Fah = (graus * 9/5) + 32
+
+            resultado.innerHTML = `${kelvin.toFixed(2)}°K (Kelvin)
+            <br>
+            ${Fah.toFixed(2)}°F (Fahrenheit)`
+        }
+    </script>
+</body>
+</html>

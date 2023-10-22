@@ -19,11 +19,39 @@
 </head>
 <body>
     <h1>Conversor de medidas</h1>
-    <button onclick="click()">Converter</button>
+    <button onclick="apertou()">Converter</button>
     <p>Clique no botão acima para iniciar!</p>
     <script>
-        function click() {
-            let
+        function apertou() {
+            let container = document.querySelector('p')
+
+            let dist = Number.parseFloat(window.prompt('Digíte uma distância em metros(m)'))
+
+            let km = dist / 1000
+
+            let hm = dist / 100
+
+            let dam = dist / 10
+
+            let dm = dist * 10
+
+            let cm = dist * 100
+
+            let mm = dist * 1000
+
+            container.innerHTML = `<h1>A distância de ${dist}, corresponde a...</h1>
+            <br>
+            ${km.toFixed(3).replace('.', ',')} quilômetros (Km)
+            <br><br>
+            ${hm.toFixed(3).replace('.', ',')} hectômetros (Hm)
+            <br><br>
+            ${dam.toFixed(3).replace('.',',')} decâmetros (Dam)
+            <br><br>
+            ${dm.toFixed(1).replace('.', ',')} decimetros (dm)
+            <br><br>
+            ${cm} centímetros (cm)
+            <br><br>
+            ${mm} milímetros (mm)`
         }
     </script>
 </body>
