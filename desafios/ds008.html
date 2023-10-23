@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de Desconto</title>
+    <style>
+        p {
+            line-height: 1.7em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calcular desconto</h1>
+    <button onclick="clicou()">Desconto de 10%</button>
+    <p>Clique no botão acima para iniciar.</p>
+    <script>
+        function clicou() {
+            let container = document.querySelector('p')
+
+            let produto = window.prompt('Qual é o produto que você está comprando?')
+
+            let valor = Number.parseFloat(window.prompt(`Qual é o valor de ${produto}`))
+
+            let desconto = valor * 10 / 100
+
+            valor_desc = valor - desconto
+
+            container.innerHTML = `O preço original era R$ ${valor.toFixed(2)}. <br>Você acaba de ganhar R$ ${desconto.toFixed(2)} de desconto (-10%). <br>No fim, você pagará R$ ${valor_desc.toFixed(2)} no produto ${produto}`
+        }
+    </script>
+</body>
+</html>
