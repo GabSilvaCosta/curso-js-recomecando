@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    text-align: center;
+    font: 1.1em Arial;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+p {
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: rgb(137, 137, 137);
+}
