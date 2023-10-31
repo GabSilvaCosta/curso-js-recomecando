@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste nacionalidade.</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: lightpink;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        div {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
     <h1>Teste de nacionalidade.</h1>
-    <input type="text" name="txt" id="itxt">
+    Informe sua nacionalidade <input type="text" name="txt" id="itxt">
+    <input type="button" value="Enviar" onclick="clicou()">
+    <div>Resultado</div>
+    <script>
+        function clicou() {
+            let origem = document.querySelector('#itxt')
+            let resul = document.querySelector('div')
+            let pais = String(origem.value)
+            if (pais == 'Brasil') {
+                resul.innerHTML = `<p>Seu país de origem é <strong>${pais}</strong>, você é Brasileiro.</p>`
+            } else {
+                resul.innerHTML = `<p> Seu país de origem é <strong>${pais}</strong>, você é gringo.</p>`
+            }
+        }
+    </script>
 </body>
 </html>
