@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificação de idade</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Insira idade abaixo</h1>
+    <form action="">
+        <input type="number" name="idad" id="iidad" placeholder="insira idade">
+        <input type="button" value="Enviar" onclick="clicou()">
+        <div>
+            <p>teste</p>
+        </div>
+    </form>
+    <script>
+        function clicou() {
+            var idade = document.getElementById('iidad')
+
+            var v_idade = Number(idade.value)
+
+            var result = document.querySelector('div')
+
+            if (v_idade >= 18) {
+                result.innerHTML = 'Você é maior de idade.'
+            } else {
+                result.innerHTML= 'Você é menor de idade.'
+            }
+        }
+    </script>
+</body>
+</html>
