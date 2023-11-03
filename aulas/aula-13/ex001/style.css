@@ -17,6 +17,17 @@ section {
     box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.376);
 }
 
+div {
+    text-align: center;
+    padding: 5px;
+}
+
+#foto {
+    position: relative;
+    top: 50%;
+    left: -13%;
+}
+
 footer {
     text-align: center;
     color: white;
