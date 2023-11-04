@@ -3,10 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
     <title>Validador de idade</title>
 </head>
 <body>
-    <h1>Insira a idade abaixo</h1>
-    
+    <header>
+        <h1>Validador de idade</h1>
+    </header>
+    <section>
+        <form action="" method="post">
+            <h3>Insira seu nome e sua idade abaixo.</h3>
+            <input type="text" name="nome" id="inome" placeholder="Nome:">
+            <input type="number" name="idade" id="iidade" placeholder="Idade:">
+            <input type="button" value="Enviar" id="ibotao" onclick="clicou()">
+            <div>Resultado</div>
+        </form>
+    </section>
+    <footer>
+        <p>Site desenvolvido por Gabriel Silva</p>
+    </footer>
 </body>
 </html>
