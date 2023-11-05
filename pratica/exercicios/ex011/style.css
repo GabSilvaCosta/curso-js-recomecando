@@ -63,6 +63,7 @@ input {
 }
 
 div {
+    padding: 5px;
     text-align: center;
     font: normal 1.2em Arial;
     color: white
