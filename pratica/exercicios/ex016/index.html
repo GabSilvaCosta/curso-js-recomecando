@@ -1,11 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="code.js"></script>
+    <title>Calculadora Simples</title>
 </head>
 <body>
-    <button></button>
+    <header>
+        <h1>Calculadora</h1>
+    </header>
+    <section>
+        <form action="" method="get">
+            <p>Primeiro valor:
+                <input type="number" name="valor1" id="ivalor1">
+            </p>
+            <p>
+                Aqui vai aparecer o aperador!
+            </p>
+            <p>Segundo valor:
+                <input type="number" name="valor2" id="ivalor2">
+            </p>
+            <h3>Escolha uma das operações abaixo.</h3>
+                <input type="button" value="+" class="operadores">
+                <input type="button" value="-" class="operadores">
+                <input type="button" value="*" class="operadores">
+                <input type="button" value="/" class="operadores">
+
+            <input type="button" value="calcular" id="icalcular" onclick="clicou">
+        </form>
+
+        <div>
+            Resultado
+        </div>
+    </section>
+    <footer>
+        Site desenvolvido por Gabriel Da Silva Costa
+    </footer>
 </body>
 </html>
