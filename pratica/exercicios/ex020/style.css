@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    font: 1.1em Arial;
+    background-color: lightgreen;
+}
+
+input {
+    padding: 20px;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+input:hover {
+    transition-duration: 1s;
+    background-color: white;
+    color: black;
+}
+
+div {
+    margin-top: 25px;
+}
