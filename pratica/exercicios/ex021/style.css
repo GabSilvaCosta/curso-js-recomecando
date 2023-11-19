@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    text-align: center;
+    background-color: lightslategray;
+    color: white;
+    font: 1.2em Arial;
+}
+
+button {
+    padding: 10px;
+    font: 1em Arial;
+}
