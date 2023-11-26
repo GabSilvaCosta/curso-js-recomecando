@@ -41,12 +41,14 @@ h1 {
     border-radius: 5px;
     color: white;
     font-size: 2em;
+    text-align: right;
 }
 
 #botoes {
-    display: flex;
-    flex-flow: row wrap;
-    gap: 08px;
+    width: 209px;
+    /* display: flex; */
+    /* flex-flow: row wrap; */
+    /* gap: 08px; */
     position: absolute;
     bottom: 10%;
     left: 50%;
@@ -57,6 +59,7 @@ h1 {
 button {
     width: 43px;
     height: 42px;
+    margin: 3px;
 }
 
 footer {
