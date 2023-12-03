@@ -1,5 +1,5 @@
-console.log('vai começar...')
-for (var ex =1 ; ex <= 5 ; ex++ ) {
-    console.log(ex)
+console.log('Vai começar...')
+for (var c = 1;c <= 5; c++)  {
+    console.log(c)
 }
-console.log('FIM!')
+console.log('Fim!')
