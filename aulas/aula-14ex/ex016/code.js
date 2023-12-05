@@ -4,7 +4,7 @@ let botao = document.querySelector('#botao');
         let fim = document.getElementById('fim')
         let passo = document.getElementById('passo')
         let res = document.getElementById('res')
-
+        // As linhas de 8 a 11 servem para verificar se o user inseriu algum valor em todos os inputs.
         if (ini.value.length == 0 || fim.value.length == 0 || passo.value.length == 0) {
             res.innerHTML = "Impossível contar!"
             window.alert('[Erro] Faltam dados!')
