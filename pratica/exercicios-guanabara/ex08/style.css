@@ -1,0 +1,12 @@
+@charset "UTF = 8";
+
+body {
+    text-align: center;
+    background-color: lightpink;
+    font: normal 1.1em Arial;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.1em;
+}
