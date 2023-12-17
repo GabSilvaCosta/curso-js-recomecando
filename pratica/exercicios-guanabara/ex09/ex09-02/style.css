@@ -1,0 +1,28 @@
+@charset "UTF=8";
+
+body {
+    text-align: center;
+    background-color: lightcoral;
+    font: normal 1.1em Arial;
+}
+
+button {
+    padding: 15px;
+    font: normal 1.1em Arial;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition-duration: 0.3s;
+}
+
+footer {
+    font: normal 1em Arial;
+    color: white;
+}
+
+strong {
+    background-color: lightgreen;
+    font-weight: normal;
+}

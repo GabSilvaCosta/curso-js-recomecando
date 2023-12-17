@@ -1,0 +1,28 @@
+@charset "UTF = 8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    padding: 20px;
+    font: normal 1.2em Arial;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 0px;
+    transition-duration: .7s;
+}
+
+button:hover {
+    border-radius: 15px;
+    transition-duration: .4s;
+}
+
+p {
+    font: normal 1.1em Arial;
+}

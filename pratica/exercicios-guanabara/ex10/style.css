@@ -1,0 +1,32 @@
+@charset "UTF = 8";
+
+body {
+    background-color: lightseagreen;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+
+input { 
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+input:hover {
+    color: white;
+    background-color: black;
+    transition-duration: .3s;
+}
+
+p {
+    color: white;
+    font: normal 1.3em Arial;
+}
+
+div {
+    font: normal 1.1em Arial;
+}
