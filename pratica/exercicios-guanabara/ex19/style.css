@@ -1,0 +1,31 @@
+@charset "UTF = 8";
+
+body {
+    text-align: center;
+    background: lightslategrey url(images/inverno.jpg) no-repeat fixed center center;
+    background-size: cover;
+    font: normal 1.1em sans-serif;
+}
+
+h1, p {
+    color: red;
+    background-color: rgba(0, 0, 0, 0.511);
+    border-radius: 10px;
+}
+
+strong { 
+    background-color: aquamarine;
+    color: red;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.1em;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    color: crimson;
+    transition-duration: .5s;
+}

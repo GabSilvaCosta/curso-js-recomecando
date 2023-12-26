@@ -1,0 +1,20 @@
+@charset "UTF = 8";
+
+body {
+    text-align: center;
+    background-color: blueviolet;
+    font: normal 1.1em sans-serif;
+    color: white;
+}
+
+button {
+    padding: 20px;
+    font-size: 1.1em;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    color: crimson;
+    transition-duration: .5s;
+}
