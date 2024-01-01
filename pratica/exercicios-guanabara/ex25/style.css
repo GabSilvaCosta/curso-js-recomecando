@@ -1,0 +1,28 @@
+@charset "UTF = 8";
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+/* font-family: 'VT323', monospace; */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 5px;
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'VT323', monospace;
+    color: black;
+}
+
+p {
+    font: normal 1em sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.423);
+}
+
+form {
+    margin: 50px;
+}
