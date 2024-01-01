@@ -3,3 +3,32 @@
 
 /* font-family: 'Single Day', cursive;
 Read */
+
+body {
+    background-color: plum;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Single Day', cursive;
+}
+
+p {
+    font: normal 1.1em Arial;
+
+}
+#contar {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+}
+
+#contar:hover {
+    background-color: white;
+    color: black;
+    transition-duration: .4s;
+}
