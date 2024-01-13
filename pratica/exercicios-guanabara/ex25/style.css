@@ -16,6 +16,7 @@ body {
 h1 {
     font-family: 'VT323', monospace;
     color: black;
+    margin-bottom: 30px;
 }
 
 p {
@@ -24,5 +25,26 @@ p {
 }
 
 form {
-    margin: 50px;
+    margin: 25px;
+}
+
+#valorInicial, #valorfinal {
+    margin-bottom: 10px;
+}
+
+#botao {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color: lightgreen;
+    border: none;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.357);
+    border-radius: 5px;
+}
+
+#botao:hover {
+    background-color: rgb(0, 119, 255);
+    color: white;
+    transition-duration: 0.6s;
 }
