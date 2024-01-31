@@ -8,7 +8,7 @@
 
     let step_ini = document.querySelector('#passo').value
     let Step_ini = Number(step_ini)
-
+    
     while (V_inicio <= V_final) {
       exib.innerHTML += `${V_inicio}`
       V_inicio++
