@@ -3,6 +3,7 @@
 body {
     background-color: rgb(119, 181, 205);
     font: normal 15px Arial;
+    text-align: center;
 }
 
 header {
@@ -22,6 +23,10 @@ section {
 
 input {
     margin: 5px;
+}
+
+#res {
+    padding: 5px;
 }
 
 footer {
