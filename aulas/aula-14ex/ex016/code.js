@@ -8,6 +8,7 @@
 
     let step_ini = document.querySelector('#passo').value
     let Step_ini = Number(step_ini)
+    
     if (V_inicio == '') {
       exib.innerHTML = `Impossível contar!`
     } else if (Step_ini == ``) {
