@@ -25,6 +25,11 @@ section {
     box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.377);
 }
 
+#foto {
+    height: 200px;
+    width: 200px;
+}
+
 footer {
     position: fixed;
     bottom: 0;
