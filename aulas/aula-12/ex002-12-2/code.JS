@@ -43,6 +43,5 @@ let verificar = document.querySelector('#botao').addEventListener('click', funct
         }
         let exibir = document.querySelector('#LocalExib').innerHTML = `Detectamos ${gênero} com ${idade} anos.`
         document.body.appendChild(imagem)
-        // Pararei por aqui, tenho que baixar novas imagens com tamanho padrão! Acredito que isso irá resolver o problema que ainda ocorre em meu site.
     }
 })
