@@ -15,5 +15,3 @@ function carregar() {
         corpo.style.background = 'rgb(93, 93, 93)'
     }
 }
-
-

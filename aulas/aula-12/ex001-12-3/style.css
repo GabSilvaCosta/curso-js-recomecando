@@ -32,6 +32,7 @@ section {
     max-height: 300px;
     min-height: 100px;
     border-radius: 10px;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.382);
 }
 
 img {
