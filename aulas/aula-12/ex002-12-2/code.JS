@@ -42,6 +42,6 @@ let verificar = document.querySelector('#botao').addEventListener('click', funct
             }
         }
         let exibir = document.querySelector('#LocalExib').innerHTML = `Detectamos ${gênero} com ${idade} anos.`
-        document.body.appendChild(imagem)
+        exibir.appendChild(imagem)
     }
 })
