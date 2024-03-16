@@ -1,6 +1,6 @@
 body {
     background-color: lightgreen;
-    font: normal 1.1em Arial;
+    font: normal 1em Arial;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
     background-color: lightblue;
     border-radius: 5px;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.234);
-    width: 600px;
+    width: 550px;
 }
 
 h1 {
@@ -18,14 +18,14 @@ h1 {
 }
 
 section {
-    padding: 10px;
+    padding: 5px;
     margin: auto;
     text-align: center;
     border-radius: 5px;
     background-color: lightblue;
-    width: 650px;
-    max-width: 700px;
     box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.234);
+    max-height: 410px;
+    max-width: 650px;
 }
 
 #itxtano {
@@ -43,6 +43,11 @@ section {
     transition: .2s;
     background-color: rgb(89, 209, 89);
     color: white;
+}
+
+
+#imagem {
+    height: 310px;
 }
 
 footer {
