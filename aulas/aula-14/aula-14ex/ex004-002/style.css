@@ -1,0 +1,35 @@
+@charset "UTF=8";
+
+body {
+    background-color: lightskyblue;
+    font: normal 15px Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.382);
+}
+
+#botao {
+    padding: 5px;
+}
+
+#botao:hover {
+    color: red;
+    transition-duration: 0.2s;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-style: italic;
+}
