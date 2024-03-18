@@ -1,7 +1,7 @@
 @charset "UTF=8";
 
 body {
-    background-color: rgb(107, 186, 236);
+    background-color: lightskyblue;
     font: normal 15px Arial;
 }
 
@@ -17,11 +17,4 @@ section {
     width: 500px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.382);
-}
-
-footer {
-    color: white;
-    text-align: center;
-    font-style: italic;
-    font-size: 1.1em;
 }

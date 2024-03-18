@@ -1,7 +1,12 @@
-let botao = document.querySelector('#gerador').addEventListener('click', function() {
-    let UserN = document.querySelector('#Nuser')
-    let res = document.querySelector('#res')
-    for (let c = 1; c <= 10; c++) {
-        res.innerHTML += `<option value="res">${c}</option>`
+let botao = document.querySelector('#Ibutton').addEventListener('click', function() {
+    let num = document.querySelector('#txtn')
+    let tab = document.querySelector('#seltab')
+    if (num.value.length == 0) {
+        window.alert('Por favor, digite um número!')
+    } else {
+        let n = Number(num.value)
+        while () {
+            
+        }
     }
 })
