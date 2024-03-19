@@ -4,9 +4,12 @@ let botao = document.querySelector('#Ibutton').addEventListener('click', functio
     if (num.value.length == 0) {
         window.alert('Por favor, digite um número!')
     } else {
-        let n = Number(num.value)
-        while () {
-            
+        tab.innerHTML = ''
+        for (let c = 1; c <= 10; c++) {
+            let item = document.createElement('option')
+            item.text = `${Number(num.value)} X ${c} = ${Number(num.value) * c}`
+            item.value = `tab${c}` // Esta linha serve para nomear cada uma das otions geradas na lista, isto é útil para outras linguagens como o PHP por exemplo.
+            tab.appendChild(item)
         }
     }
 })
