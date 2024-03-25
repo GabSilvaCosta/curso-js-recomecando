@@ -20,6 +20,20 @@ section {
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.289);
 }
 
+#botao, #finish {
+    margin: 2px;
+    background-color: gray;
+    color: white;
+}
+
+#botao:hover, #finish:hover {
+    background-color: black;
+    transition-duration: .5s;
+}
+
 footer {
     text-align: center;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
 }
