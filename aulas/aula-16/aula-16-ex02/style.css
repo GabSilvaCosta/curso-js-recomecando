@@ -20,6 +20,11 @@ section {
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.289);
 }
 
+#valuelist {
+    margin-top: 15px;
+    width: 150px;
+}
+
 #botao, #finish {
     margin: 2px;
     background-color: gray;
