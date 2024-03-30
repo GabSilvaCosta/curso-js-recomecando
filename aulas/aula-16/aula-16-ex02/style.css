@@ -16,11 +16,10 @@ section {
     background-color: aliceblue;
     margin: auto;
     width: 450px;
-    height: 250px;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.289);
 }
 
-#valuelist {
+#flista {
     margin-top: 15px;
     width: 150px;
 }
