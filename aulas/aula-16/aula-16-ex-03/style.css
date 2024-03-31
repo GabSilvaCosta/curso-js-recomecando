@@ -1,0 +1,43 @@
+@charset "UTF=8";
+
+body {
+    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+section {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: lightcoral;
+    margin: auto;
+    width: 450px;
+    box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.289);
+}
+
+#flista {
+    margin-top: 15px;
+    width: 150px;
+}
+
+#add, #finish {
+    margin: 2px;
+    background-color: gray;
+    color: white;
+}
+
+#add:hover, #finish:hover {
+    background-color: black;
+    transition-duration: .5s;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
