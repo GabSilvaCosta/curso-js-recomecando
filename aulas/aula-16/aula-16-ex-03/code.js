@@ -1,4 +1,4 @@
-let num = document.querySelector('#fnum')
+var num = document.querySelector('#fnum')
 let lista = document.querySelector('#flista')
 let res = document.querySelector('#res')
 let valores = []
@@ -35,18 +35,20 @@ function finalizar() {
         window.alert('ERRO')
     } else {
         let total = lista.length
-        let maior = 0
-        let menor = 0
+        let maior = valores[0]
+        let menor = valores[0]
         let soma = 0
         let media = 0
         for (let pos in valores) {
-            if (maior[pos] > maior)
-            maior = maior[pos]
-            if (menor[pos] < menor)
-            menor = menor[pos]
+            soma += valores[pos]
+            if (valores[pos] > maior)
+            maior = valores[pos]
+            if (valores[pos] < menor)
+            menor = valores[pos]
         }
         res.innerHTML += `<p>A lista tem ${total} valores ao todo.</p>`
         res.innerHTML += `<p>O maior valor é ${maior}</p>`
         res.innerHTML += `<p>O menor valor é ${menor}</p>`
+        res.innerHTML += `Somando todos os valores, temos ${soma}`
     }
 }
