@@ -28,11 +28,14 @@ function adicionar() {
     } else {
         window.alert('ERRO! Valor inválido ou já inserido.')
     }
+    num.value = ''
+    num.focus()
+    res.innerHTML = ''
 }
 
 function finalizar() {
     if (Number(lista.length) == 0) {
-        window.alert('ERRO')
+        window.alert('ERRO! Lista em branco.')
     } else {
         let total = lista.length
         let maior = valores[0]
@@ -40,15 +43,19 @@ function finalizar() {
         let soma = 0
         let media = 0
         for (let pos in valores) {
-            soma += valores[pos]
+            soma += Number(valores[pos])
             if (valores[pos] > maior)
             maior = valores[pos]
             if (valores[pos] < menor)
             menor = valores[pos]
         }
+        media = soma / total
+        res.innerHTML = ''
         res.innerHTML += `<p>A lista tem ${total} valores ao todo.</p>`
         res.innerHTML += `<p>O maior valor é ${maior}</p>`
         res.innerHTML += `<p>O menor valor é ${menor}</p>`
-        res.innerHTML += `Somando todos os valores, temos ${soma}`
+        res.innerHTML += `<p>Somando todos os valores, temos ${soma}</p>`
+        res.innerHTML += `<p>A média dos valores digitados é ${media.toFixed(2)}</p>`
     }
+    
 }
