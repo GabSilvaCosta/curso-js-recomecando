@@ -13,12 +13,13 @@
     </header>
     <section>
             <div id="entrada">
-                <input type="text" name="afazeres" id="afazeres" placeholder="Oque quer fazer?">
-                <input type="button" value="Adicionar" id="add">
+                <input type="text" name="afazeres" id="afazeres" placeholder="Ínsira a terefa aqui." autocomplete="off">
+                <input type="button" value="Adicionar" id="add" class="buttonStyle">
             </div>
            <select name="lista-afazeres" id="lista-afazeres" size="10"></select>
             <div id="format-remove">
-                <input type="button" value="Remover da lista" id="remove">
+                <input type="button" value="Marcar como concluída" class="buttonStyle">
+                <input type="button" value="Remover da lista" class="buttonStyle">
             </div>
         <div id="res">
 
@@ -27,5 +28,6 @@
     <footer>
         <p>&copy; site desenvolvido por Gabriel_Silva</p>
     </footer>
+    <script src="code.js"></script>
 </body>
 </html>

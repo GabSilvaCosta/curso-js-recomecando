@@ -14,10 +14,11 @@ header {
     background-color: rgb(103, 181, 229);
     border-radius: 10px;
     margin: 10px 0px 25px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.26);
 }
 
 h1 {
-    text-align: center;
+text-align: center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -27,7 +28,7 @@ section {
     width: 80vw;
     max-width: 600px;
     border-radius: 5px;
-    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.396);
+    box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.253);
 }
 
 #entrada {
@@ -36,16 +37,20 @@ section {
 
 #afazeres {
     margin: 15px 0px;
+    padding: 2px;
 }
 
 #lista-afazeres {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     margin: 10px;
-    text-align: justify;
     width: 200px;
 }
 
-#remove {
-    margin-left: 10px;
+.buttonStyle {
+    padding: 2px;
+    margin: 10px;
     width: 200px;
 }
 
