@@ -1,0 +1,56 @@
+@charset "UTF=8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 5px;
+    background-color: lightcoral;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline 4px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin: auto;
+    background-color: white;
+    width: 650px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.313);
+    padding: 5px;
+}
+
+div {
+    padding: 10px;
+}
+
+#Ibutton {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    background-color: lightcoral;
+    border: 1.5px solid black;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.353);
+    border-radius: 3px;
+}
+
+#Ibutton:hover {
+    transition: .4s;
+    color: white;
+}
+
+footer {
+    margin: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    font-style: italic;
+}
