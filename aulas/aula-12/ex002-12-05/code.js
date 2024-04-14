@@ -44,4 +44,6 @@ let button = document.querySelector('#Iverify').addEventListener('click', functi
                 }
                 res.appendChild(img)
             }
+            bornUser.value = ''
+            bornUser.focus()
 })
