@@ -41,6 +41,34 @@ input {
     margin: 10px 2px;
 }
 
+#bornUser {
+    padding: 2px;
+}
+
+#Iverify {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 5px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.352);
+}
+
+#Iverify:hover {
+    color: red;
+    transition: .3s;
+}
+
+#res {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#people {
+    height: 290px;
+}
+
 footer {
     color: white;
     position: absolute;
