@@ -35,6 +35,10 @@ select {
     width: 170px;
 }
 
+div {
+    color: white;
+}
+
 .buttons {
     padding: 4px;
     border: 1px;
