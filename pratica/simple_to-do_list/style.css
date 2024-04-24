@@ -41,7 +41,9 @@ section {
 }
 
 #lista-afazeres {
+    text-align: justify;
     position: relative;
+    padding: 5px;
     left: 50%;
     transform: translate(-50%);
     margin: 10px;
