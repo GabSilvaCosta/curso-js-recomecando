@@ -50,6 +50,10 @@ section {
     width: 200px;
 }
 
+#format-remove {
+    text-align: center;
+}
+
 .buttonStyle {
     padding: 2px;
     margin: 10px;

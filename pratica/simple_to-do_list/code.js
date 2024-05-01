@@ -3,7 +3,7 @@ let lista = document.querySelector('#lista-afazeres')
 let tarefa = []
 
 let add = document.querySelector('#add').addEventListener('click', function() {
-    if (EntradaUser.value == '') {
+    if (EntradaUser.value == '' && !Nexiste(EntradaUser.value)) {
         window.alert('[ERRO] tente dígitar algo e aperte o botão novamente!')
     } else {
         let item = document.createElement('option')
@@ -11,3 +11,11 @@ let add = document.querySelector('#add').addEventListener('click', function() {
         item.innerHTML = `${EntradaUser.value}`
     }
 })
+
+function Nexiste(e) {
+    if (tarefa.indexOf(e.value) != -1) {
+        return false
+    } else {
+        return true
+    }
+}
